@@ -13,7 +13,7 @@ A curated collection of Python-based ethical hacking tools ranging from beginner
 ## 📁 Project Structure
 
 ### 🧪 Beginner
-- [🚀 DDOS Tool](./Beginner/DDos_Simulation.py) – Simulates a simple denial-of-service attack.
+- [🚀 DDOS Tool](./Beginner/DDoS_Simulation.py) – Simulates a simple denial-of-service attack.
 - [🔐 Zip Cracker](./Beginner/Zip_Cracker.py) – Brute-force password cracker for ZIP archives.
 - [📋 Clipboard Tool](./Beginner/Clipboard_Tool.py) – Monitors and logs clipboard content.
 
