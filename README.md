@@ -13,12 +13,12 @@ A curated collection of Python-based ethical hacking tools ranging from beginner
 ## 📁 Project Structure
 
 ### 🧪 Beginner
-- [🚀 DDOS Tool](./Beginner/DDos%20Tool/DDos_Simulation.py) – Simulates a simple denial-of-service attack.
-- [🔐 Zip Cracker](./Beginner/Zip%20Cracker/Zip_Cracker.py) – Brute-force password cracker for ZIP archives.
-- [📋 Clipboard Tool](./Beginner/Clipboard%20Tool/Clipboard_Tool.py) – Monitors and logs clipboard content.
+- [🚀 DDOS Tool](./Beginner/DDos_Simulation.py) – Simulates a simple denial-of-service attack.
+- [🔐 Zip Cracker](./Beginner/Zip_Cracker.py) – Brute-force password cracker for ZIP archives.
+- [📋 Clipboard Tool](./Beginner/Clipboard_Tool.py) – Monitors and logs clipboard content.
 
 ### ⚙️ Intermediate
-- [🖥 Keylogger](./Intermediate/Keylogger/Keylogger.py) – Logs keystrokes to a hidden file.
+- [🖥 Keylogger](./Intermediate/Keylogger.py) – Logs keystrokes to a hidden file.
 - [🌐 Port Scanner](./Intermediate/Port%20Scanner/port_scanner.py) – Scans a target host for open ports.
 - [📍 Location Tracker](./Intermediate/Location%20Tracker/location_tracker.py) – Geolocates IP addresses via public APIs.
 
