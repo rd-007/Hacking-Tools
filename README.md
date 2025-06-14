@@ -1,33 +1,51 @@
-<h1 align="center">🔐 Ethical Hacking with Python</h1>
-<p align="center">
-  <img src="https://img.shields.io/badge/language-Python-blue.svg" />
-  <img src="https://img.shields.io/github/stars/rd-007/Hacking-Tools?style=social" />
-  <img src="https://img.shields.io/github/license/rd-007/Hacking-Tools" />
-</p>
+# 🛠️ Hacking-Tools Collection
 
-> A collection of Python-based tools and mini-projects for ethical hacking and cybersecurity research. Built for education, experimentation, and ethical use only.
+![Language](https://img.shields.io/badge/language-Python-blue.svg)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![GitHub stars](https://img.shields.io/github/stars/rd-007/Hacking-Tools?style=social)
 
-## 🧰 Tools & Projects Included
 
-### 🟢 Beginner
+A curated collection of Python-based ethical hacking tools ranging from beginner to advanced level. Built for educational purposes and cybersecurity learning.
 
-- 🌀 **DDoS Tool** – Simulates basic denial-of-service attacks (for labs only)  
-- 🗜️ **ZIP Cracker** – Brute-force protected `.zip` file passwords  
-- 📋 **Clipboard Tool** – Monitor and log clipboard activity  
-
-### 🟡 Intermediate
-
-- 🧠 **Keylogger** – Records keyboard input locally (educational use)  
-- 🌐 **Port Scanner** – Scan open ports on a given host  
-- 📍 **Location Tracker** – Tracks device location via IP or GPS (with consent)
-
-### 🔴 Advanced
-
-- 🦠 **Replicating Virus** – Simulates a self-replicating file (safe environment only)  
-- 📶 **Wi-Fi Extractor** – Extract saved Wi-Fi credentials on local system  
-- 📳 **NFC Cracker** – Tool to simulate NFC-based sniffing attacks (requires compatible hardware)
+> **⚠️ Disclaimer:** This repository is intended for **educational use only**. Unauthorized use of these tools against systems you do not own is illegal and unethical.
 
 ---
 
 ## 📁 Project Structure
 
+### 🧪 Beginner
+- **DDOS Tool** – Simulates simple denial-of-service attack (educational demo).
+- **Zip Cracker** – Brute-force password cracker for ZIP archives.
+- **Clipboard Tool** – Monitors and logs clipboard content.
+
+### ⚙️ Intermediate
+- **Keylogger** – Logs keystrokes to a hidden file.
+- **Port Scanner** – Scans a target host for open ports.
+- **Location Tracker** – Uses public APIs to geolocate IP addresses.
+
+### 🧠 Advanced
+- **Replicating Virus** – Demonstration of self-replicating scripts (for learning).
+- **WiFi Extractor** – Extract saved Wi-Fi passwords on local machine.
+- **NFC Cracker** – Simulates NFC sniffing/cracking (concept-level project).
+
+---
+
+## 🧑‍💻 Requirements
+
+- Python 3.x
+- `pip` (Python package installer)
+- Modules listed in each project’s `requirements.txt`
+
+---
+
+## 🚀 How to Use
+
+```bash
+git clone https://github.com/rd-007/Hacking-Tools.git
+cd Hacking-Tools
+# Navigate into desired project folder and run its main script
+```
+
+## 🙋‍♂️ Author
+Rajit Dakhane
+<br>  Comp. Engineering Student | Cybersecurity Enthusiast </br>
