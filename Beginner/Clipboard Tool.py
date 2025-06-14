@@ -1,6 +1,3 @@
-# Clipboard Tool: A simple Python script to monitor clipboard changes and log them to a file.
-# Requires tkinter for clipboard access and logging to a file.  
-
 import time
 import threading
 import logging
