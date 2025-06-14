@@ -2,11 +2,9 @@
 ZIP File Password Cracker (User-Driven)
 
 - This script attempts to brute-force crack a password-protected ZIP file.
-- It lets the user input the ZIP file path and wordlist path interactively via the console,
-then tries passwords from the provided wordlist until the ZIP file is successfully unlocked.
+- It lets the user input the ZIP file path and wordlist path interactively via the console, then tries passwords from the provided wordlist until the ZIP file is successfully unlocked.
 
-Usage:
-    Run the script and follow prompts.
+Usage: Run the script and follow prompts.
 
 Notes:
 - This tool is strictly for ethical use: recovering passwords of ZIP files you own or have permission to test.
