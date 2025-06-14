@@ -1,3 +1,16 @@
+"""
+DDoS Simulation Tool (Educational Use Only)
+This Python script simulates a high volume of asynchronous HTTP GET requests to a target URL.
+It is intended solely for educational purposes to demonstrate how traffic volume can impact server performance.
+
+Usage: Run the script and input the target URL and number of requests when prompted.
+    
+Notes:
+- Use this tool only on servers you own or have explicit permission to test.
+- Unauthorized use against other servers is illegal and unethical.
+- This script uses asynchronous requests for faster execution.
+"""
+
 import asyncio
 import aiohttp
 import time
