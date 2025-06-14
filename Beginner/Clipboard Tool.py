@@ -1,3 +1,15 @@
+"""
+Clipboard Activity Monitor - Educational Tool
+This Python script monitors clipboard changes and logs clipboard content with timestamps.
+It demonstrates how clipboard data can be intercepted and highlights privacy concerns.
+Usage:
+    python clipboard_monitor.py
+Notes:
+- This tool is intended for ethical security research and education.
+- Use it only on systems where you have permission.
+- It logs clipboard text data; be mindful of sensitive data handling.
+"""
+
 import time
 import threading
 import logging
