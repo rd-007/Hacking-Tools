@@ -8,23 +8,26 @@
 A curated collection of Python-based ethical hacking tools ranging from beginner to advanced level. Built for educational purposes and cybersecurity learning.
 
 > **⚠️ Disclaimer:** This repository is intended for **educational use only**. Unauthorized use of these tools against systems you do not own is illegal and unethical.
+---
 
 ## 📁 Project Structure
 
 ### 🧪 Beginner
-- [🚀 DDOS Tool](./Beginner/DDos%20Tool) – Simulates a simple denial-of-service attack (demo).
-- [🔐 Zip Cracker](./Beginner/Zip%20Cracker) – Brute-force password cracker for ZIP archives.
-- [📋 Clipboard Tool](./Beginner/Clipboard%20Tool) – Monitors and logs clipboard content.
+- [🚀 DDOS Tool](./Beginner/DDos%20Tool/DDos_Simulation.py) – Simulates a simple denial-of-service attack.
+- [🔐 Zip Cracker](./Beginner/Zip%20Cracker/Zip_Cracker.py) – Brute-force password cracker for ZIP archives.
+- [📋 Clipboard Tool](./Beginner/Clipboard%20Tool/Clipboard_Tool.py) – Monitors and logs clipboard content.
 
 ### ⚙️ Intermediate
-- [🖥 Keylogger](./Intermediate/Keylogger) – Logs keystrokes to a hidden file.
-- [🌐 Port Scanner](./Intermediate/Port%20Scanner) – Scans a target host for open ports.
-- [📍 Location Tracker](./Intermediate/Location%20Tracker) – Geolocates IP addresses via public APIs.
+- [🖥 Keylogger](./Intermediate/Keylogger/Keylogger.py) – Logs keystrokes to a hidden file.
+- [🌐 Port Scanner](./Intermediate/Port%20Scanner/port_scanner.py) – Scans a target host for open ports.
+- [📍 Location Tracker](./Intermediate/Location%20Tracker/location_tracker.py) – Geolocates IP addresses via public APIs.
 
 ### 🧠 Advanced
-- [🧬 Replicating Virus](./Advanced/Replicating%20Virus) – Self-replicating script for learning.
-- [📶 WiFi Extractor](./Advanced/WiFi%20Extractor) – Extracts saved Wi-Fi passwords.
-- [📡 NFC Cracker](./Advanced/NFC%20Cracker) – Simulates NFC sniffing/cracking (concept demo).
+- [🧬 Replicating Virus](./Advanced/Replicating%20Virus/replicator.py) – Self-replicating script for learning.
+- [📶 WiFi Extractor](./Advanced/WiFi%20Extractor/wifi_extractor.py) – Extracts saved Wi-Fi passwords.
+- [📡 NFC Cracker](./Advanced/NFC%20Cracker/nfc_cracker.py) – Simulates NFC sniffing/cracking (concept demo).
+
+---
 
 ## 🧑‍💻 Requirements
 
