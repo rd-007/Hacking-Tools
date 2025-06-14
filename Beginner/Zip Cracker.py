@@ -1,4 +1,18 @@
-import sys
+"""
+ZIP File Password Cracker (User-Driven)
+
+- This script attempts to brute-force crack a password-protected ZIP file.
+- It lets the user input the ZIP file path and wordlist path interactively via the console, then tries passwords from the provided wordlist until the ZIP file is successfully unlocked.
+
+Usage: Run the script and follow prompts.
+
+Notes:
+- This tool is strictly for ethical use: recovering passwords of ZIP files you own or have permission to test.
+- Ensure the wordlist file contains one password per line.
+- The script tries each password sequentially until it finds the correct one or exhausts the list.
+
+"""
+
 import zipfile
 
 def crack_zip(zip_path: str, wordlist_path: str):
@@ -28,7 +42,7 @@ def crack_zip(zip_path: str, wordlist_path: str):
             print(f"[+] Password found: '{password}'")
             return
         except RuntimeError:
-            # wrong password causes RuntimeError: Bad password for file
+            # Wrong password causes RuntimeError
             pass
         except zipfile.BadZipFile:
             print("[!] Corrupted ZIP file or wrong password. Exiting.")
@@ -43,12 +57,9 @@ def crack_zip(zip_path: str, wordlist_path: str):
     print("[-] Password not found in wordlist.")
 
 def main():
-    if len(sys.argv) != 3:
-        print("Usage: python zip_password_cracker.py <zipfile_path> <password_wordlist>")
-        sys.exit(1)
-
-    zip_path = sys.argv[1]
-    wordlist_path = sys.argv[2]
+    print("=== ZIP File Password Cracker ===")
+    zip_path = input("Enter the path to the ZIP file: ").strip()
+    wordlist_path = input("Enter the path to the password wordlist file: ").strip()
 
     crack_zip(zip_path, wordlist_path)
 
