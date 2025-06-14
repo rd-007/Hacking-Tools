@@ -1,12 +1,11 @@
 <h1 align="center">🔐 Ethical Hacking with Python</h1>
 <p align="center">
-  <img src="https://img.shields.io/github/languages/top/rd-007/Hacking-Tools" />
+  <img src="https://img.shields.io/badge/language-Python-blue.svg" />
   <img src="https://img.shields.io/github/stars/rd-007/Hacking-Tools?style=social" />
   <img src="https://img.shields.io/github/license/rd-007/Hacking-Tools" />
 </p>
 
 > A collection of Python-based tools and mini-projects for ethical hacking and cybersecurity research. Built for education, experimentation, and ethical use only.
-
 
 ## 🧰 Tools & Projects Included
 
