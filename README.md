@@ -33,7 +33,7 @@ A curated collection of Python-based ethical hacking tools ranging from beginner
 
 - Python 3.x
 - `pip` (Python package installer)
-- Modules listed in each project’s `requirements.txt`
+- Modules listed in `Requirements.md`
 
 ---
 
