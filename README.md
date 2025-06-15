@@ -23,9 +23,9 @@ A curated collection of Python-based ethical hacking tools ranging from beginner
 - [📍 Location Tracker](./Intermediate/Location_Tracker.py) – Geolocates IP addresses via public APIs.
 
 ### 🧠 Advanced
-- [🧬 Replicating Virus](./Advanced/Replicating%20Virus/replicator.py) – Self-replicating script for learning.
-- [📶 WiFi Extractor](./Advanced/WiFi%20Extractor/wifi_extractor.py) – Extracts saved Wi-Fi passwords.
-- [📡 NFC Cracker](./Advanced/NFC%20Cracker/nfc_cracker.py) – Simulates NFC sniffing/cracking (concept demo).
+- [🧬 Replicating Virus](./Advanced/Replicating_Virus.py) – Self-replicating script for learning.
+- [📶 WiFi Extractor](./Advanced/WiFi_Extractor.py) – Extracts saved Wi-Fi passwords.
+- [📡 NFC Cracker](./Advanced/NFC_Cracker.py) – Simulates NFC sniffing/cracking (concept demo).
 
 ---
 
