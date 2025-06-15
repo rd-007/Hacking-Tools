@@ -7,7 +7,7 @@
 | `requests`           | External  | IP Location Tracker                                   |
 | `nfcpy`              | External  | NFC Reader                                            |
 | `concurrent.futures` | Built-in  | Network Port Scanner                                  |
-| `os`                 | Built-in  | Self-Replicating Program, Wi-Fi Info Extractor, etc. |
+| `os`                 | Built-in  | Self-Replicating Program, Wi-Fi Info Extractor, etc.. |
 | `re`                 | Built-in  | Wi-Fi Info Extractor                                  |
 | `shutil`             | Built-in  | Self-Replicating Program                              |
 | `socket`             | Built-in  | Network Port Scanner                                  |
