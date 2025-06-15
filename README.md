@@ -19,8 +19,8 @@ A curated collection of Python-based ethical hacking tools ranging from beginner
 
 ### ⚙️ Intermediate
 - [🖥 Keylogger](./Intermediate/Keylogger.py) – Logs keystrokes to a hidden file.
-- [🌐 Port Scanner](./Intermediate/Port%20Scanner/port_scanner.py) – Scans a target host for open ports.
-- [📍 Location Tracker](./Intermediate/Location%20Tracker/location_tracker.py) – Geolocates IP addresses via public APIs.
+- [🌐 Port Scanner](./Intermediate/Port_Scanner.py) – Scans a target host for open ports.
+- [📍 Location Tracker](./Intermediate/Location_Tracker.py) – Geolocates IP addresses via public APIs.
 
 ### 🧠 Advanced
 - [🧬 Replicating Virus](./Advanced/Replicating%20Virus/replicator.py) – Self-replicating script for learning.
